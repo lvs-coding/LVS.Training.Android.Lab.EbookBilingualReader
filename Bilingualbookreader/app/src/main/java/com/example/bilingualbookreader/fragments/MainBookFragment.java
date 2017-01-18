@@ -10,15 +10,7 @@ import android.webkit.WebView;
 import com.example.bilingualbookreader.R;
 import com.example.bilingualbookreader.helpers.BookHelper;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-
 import nl.siegmann.epublib.domain.Book;
-import nl.siegmann.epublib.domain.Resource;
-import nl.siegmann.epublib.domain.Spine;
-import nl.siegmann.epublib.domain.SpineReference;
 
 /**
  * Created by laurent on 1/17/17.
