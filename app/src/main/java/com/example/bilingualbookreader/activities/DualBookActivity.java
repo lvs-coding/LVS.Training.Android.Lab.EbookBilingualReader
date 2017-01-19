@@ -8,10 +8,6 @@ import com.example.bilingualbookreader.R;
 public class DualBookActivity extends AppCompatActivity {
     private static String LOG_TAG = DualBookActivity.class.getSimpleName();
 
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

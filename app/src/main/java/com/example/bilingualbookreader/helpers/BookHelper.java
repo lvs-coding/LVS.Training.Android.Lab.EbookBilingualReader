@@ -71,22 +71,14 @@ public class BookHelper {
         return foundSentence;
     }
 
+
     public static Book openBook(String ebookFilePath) {
         EpubReader epubReader = new EpubReader();
-        FileInputStream fileInputStream = null;
         Book book = null;
-
         try {
-            fileInputStream = new FileInputStream(ebookFilePath);
-            book = epubReader.readEpub(fileInputStream);
+            book = epubReader.readEpubLazy(ebookFilePath,"UTF-8");
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            try {
-                fileInputStream.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
         }
         return book;
     }

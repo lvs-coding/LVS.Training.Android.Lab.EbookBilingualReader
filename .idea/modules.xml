@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Bilingualbookreader.iml" filepath="$PROJECT_DIR$/Bilingualbookreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LVS.Training.Android.Lab.EbookBilingualReader.iml" filepath="$PROJECT_DIR$/LVS.Training.Android.Lab.EbookBilingualReader.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
